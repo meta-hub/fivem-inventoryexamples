@@ -11,6 +11,7 @@ Config = {
   Objects = {
     {
       InvType = "vault",                                -- vault or crafting
+      InvLabel = "police_evidence_label",               -- The label in mf-inventory.
       Identifier = "evidenceMRPD1",                     -- Inventory Name (MUST BE UNIQUE). Script will auto search if this inventory exists, and if it doesn't, it will create it for you.
       ShowProp = true,                                  -- Set to true if you want to see the vault prop. set to false if you do not want to see the vault prop. (Default: true)
       Prop = 'p_v_43_safe_s',                           -- Vault Prop Name
@@ -33,6 +34,7 @@ Config = {
     },
     {   
       InvType = "vault",                                -- vault or crafting
+      InvLabel = "police_evidence_label",               -- The label in mf-inventory.
       Identifier = "evidenceMRPD2",                     -- Inventory Name. Script will auto search if this inventory exists, and if it doesn't, it will create it for you.
       ShowProp = false,                                 -- set to true if you want to see the vault prop. set to false if you do not want to see the vault prop. (Default: true)
       Prop = 'p_v_43_safe_s',                           -- Vault Prop Name
@@ -53,6 +55,7 @@ Config = {
     },
     {
       InvType = "crafting",                             -- vault or crafting
+      InvLabel = "example_recipe_label",                -- The label in mf-inventory.
       Identifier = "example_recipe",                    -- Crafting recipe name. Must be defined in mf-inventory config.lua.
       ShowProp = true,                                  -- set to true if you want to see the crafting table prop.
       Prop = 'prop_tool_bench02_ld',                    -- Table prop name.
