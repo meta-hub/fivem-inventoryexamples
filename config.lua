@@ -29,6 +29,7 @@ Config = {
       RemoveOnSuccess = true,                           -- Remove break-in item on success?
       RemoveOnFail = false,                             -- Remove break-in item on fail?
       PinCount = 4,                                     -- Count of pins to break in?
+      Temporary = true,                                 -- Temporary inventory? (Will not save if set to false)
     },
     {   
       InvType = "vault",                                -- vault or crafting
